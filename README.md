@@ -7,7 +7,7 @@ Sistema desenvolvido para controle de empréstimo de equipamentos do campus
 
 | Nome         | Função                  |
 |--------------|-------------------------|
-| João Silva   | Desenvolvedor Backend   |
+| Gabriel Levy   | Desenvolvedor Backend   |
 | Maria Souza  | Analista de Requisitos  |
 | Pedro Lima   | Testador / QA           |
 
