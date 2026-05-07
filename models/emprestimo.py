@@ -9,3 +9,16 @@ class Emprestimo:
     email: str
     data_devolucao: date
     devolvido: bool
+
+
+    from dataclasses import dataclass
+from datetime import date
+
+@dataclass
+class Emprestimo:
+    id: int
+    equipamento: object
+    nome_usuario: str
+    email: str
+    data_devolucao: date
+    devolvido: bool = False

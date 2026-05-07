@@ -41,3 +41,10 @@ Não é necessário usar termos técnicos neste momento.
 ## Revisão com vocabulário técnico
 
 *(Este espaço será preenchido após a Aula 4, quando os termos técnicos corretos forem aprendidos)*
+## Revisão com vocabulário técnico
+
+- O sistema possui baixa coesão, pois mistura regra de negócio, notificação e interface no mesmo arquivo.
+- Há violação do SRP, porque uma única classe possui múltiplas responsabilidades.
+- Existe alto acoplamento devido ao uso de variáveis globais compartilhadas.
+- Não há ocultamento de informação, pois os dados são armazenados em dicionários expostos diretamente.
+- O sistema possui baixa separação de responsabilidades entre interface, lógica e armazenamento.
