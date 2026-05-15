@@ -66,3 +66,14 @@ class ServicoEmprestimo:
         atrasados = self.repo.buscar_atrasados()
 
         return atrasados
+
+    def calcular_multa(self, equip_id, dias_atraso):
+
+        equipamento = self.repo.buscar_equipamento(equip_id)
+
+        if not equipamento:
+            return None
+
+        multa = equipamento.calcular_multa(dias_atraso)
+
+        return multa
