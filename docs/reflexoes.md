@@ -10,4 +10,4 @@ A aplicação do OCP através de polimorfismo melhorou a organização do sistem
 
 Entretanto, como discutido por Valente no Capítulo 5, o OCP possui limites. Caso surgisse um requisito muito diferente, como multas calculadas por hora ou dependendo do dia da semana, talvez a hierarquia atual não fosse suficiente. Nesse cenário, seria necessário repensar a decomposição, possivelmente utilizando estratégias ou composição em vez de apenas herança.
 
-Portanto, o OCP funciona bem para variações previsíveis, mas não elimina totalmente futuras modificações arquiteturais quando os requisitos mudam de forma radical.
+Portanto, o OCP funciona bem para variações previsíveis, mas não elimina totalmente futuras modificações arquiteturais quando os requisitos mudam de forma radical..
